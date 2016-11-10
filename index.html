@@ -1,23 +1,59 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" style="text/css" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<title>SPHERA</title>
+  </head>
+  <body>
+    <div class="navbar">
+	  <ul>
+	    <li><a href="#">ABOUT US</a></li>
+		<li><a href="#">SERVICES</a></li>
+		<li><a href="#">PRICEING</a></li>
+	    <li style="float:right"><a href="#">CONTACT</a></li>
+		<li style="float:right"><a href="#">BLOG</a></li>
+	    <li style="float:right"><a href="#">PORTFOLIO</a></li>
+		<li style="text-align:center"><h1>SPHERA</h1></li>
+	  </ul>
+	</div>
+    <div class="container">
+	  <img src="http://www.walldevil.com/wallpapers/a81/rock-sea-ocean-sky-sun-cloud.jpg"/>
+	  <div>
+        <h1 class="center">UNLEASH YOUR CREATIVITY</h1>
+	    <a href="#"><em>buy now on Baqtech</em></a>
+	  </div>
+	</div>
+	<div class="portfolio">
+	  <h2>MEET <span>THE</span> TEAM</h2>
+	  <h3 style="color:gray;">We are a creative people, we create, we design, we develop.</h3>
+	  <div class="team">
+	    <img id="dleft" src="http://cdn3.sortra.com/wp-content/uploads/2015/01/boudoir-valentine-photography198.jpg"/>
+		<div class="dleft">
+		  <h1>Obada Baqleh</h1>
+		  <span class="p"><p style="text-align:center" style="color:gray"><em>designer</em></p></span>
+		  <div class="facebook1"><a href="#"><i class="fa fa-facebook-f" style="font-size:20px"></i></a></div>
+		  <div class="pinterest1"><a href="#"><i class="fa fa-pinterest-p" style="font-size:20px"></i></a></div>
+		  <div class="twitter1"><a href="#"><i class="fa fa-twitter" style="font-size:20px"></i></a></div>
+		</div>
+		<img id="fcenter" src="https://s-media-cache-ak0.pinimg.com/originals/12/80/a3/1280a32adb3b3501f2e42df3fd044c05.jpg"/>
+		<div class="fcenter">
+		  <h1>Obada Baqleh</h1>
+		  <span class="p"><p style="text-align:center" style="color:gray"><em>founder</em></p></span>
+		  <div class="facebook2"><a href="#"><i class="fa fa-facebook-f" style="font-size:20px"></i></a></div>
+		  <div class="pinterest2"><a href="#"><i class="fa fa-pinterest-p" style="font-size:20px"></i></a></div>
+		  <div class="twitter2"><a href="#"><i class="fa fa-twitter" style="font-size:20px"></i></a></div>
+		</div>
+		<img id="deright" src="https://s-media-cache-ak0.pinimg.com/236x/cd/90/d9/cd90d9de63fa2c8e5c5e7117e27b5c18.jpg"/>
+		<div class="deright">
+		  <h1>Obada Baqleh</h1>
+		  <span class="p"><p style="text-align:center" style="color:gray"><em>developer</em></p></span>
+		  <div class="facebook3"><a href="#"><i class="fa fa-facebook-f" style="font-size:20px"></i></a></div>
+		  <div class="pinterest3"><a href="#"><i class="fa fa-pinterest-p" style="font-size:20px"></i></a></div>
+		  <div class="twitter3"><a href="#"><i class="fa fa-twitter" style="font-size:20px"></i></a></div>
+		</div>
+	  </div>
+	</div>
+  </body>
+</html>
