@@ -1,206 +1,203 @@
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+* {
+	font-family: Monospace;
+}
+.navbar ul {
+	list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background: -webkit-linear-gradient(white, #f4f5f7);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	border: 1px solid #f4f5f7;
 }
-
-
-
-/**
- * Basic styling
- */
-body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
+.navbar li {
+	float: left;
 }
-
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}
-
-
-
-/**
- * Images
- */
-img {
-    max-width: 100%;
-    vertical-align: middle;
-}
-
-
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
-}
-
-
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
-
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
-}
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
-}
-
-
-
-/**
- * Links
- */
-a {
-    color: $brand-color;
+.navbar li a {
+	display: block;
+    color: grey;
+    text-align: center;
+    padding: 10px 14px;
+	margin-top: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 12px;
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+}
+.navbar li a:hover {
+	text-decoration: underline;
+}
+.navbar li h1 {
+	margin: auto;
+	text-align: center;
+	padding-left: 190px;
+	color: lightblue;
+	font-size: 70px;
+	font-family: Monospace;
+}
+.container {
+	position: relative;
+}
+.center {
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+	color: white;
+	font-weight: bold;
+	border: 10px double white;
+    padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
-
-
-/**
- * Blockquotes
- */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+.container img {
+	width: 1351px;
+	height: 690px;
+    height: auto;
+    opacity: 0.7;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.container a {
+	position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
-
-    > :last-child {
-        margin-bottom: 0;
-    }
+	color: white;
+	text-decoration: none;
 }
-
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+.container a:hover {
+	text-decoration: underline;
 }
-
-code {
-    padding: 1px 5px;
+.portfolio {
+	background-color: #edeeef;
+	margin: auto;
+	margin-top: -40px;
+	margin-right: -10px;
+	margin-left: -10px;
+	height: 1000px;
 }
-
-pre {
-    padding: 8px 12px;
-    overflow-x: auto;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+.portfolio h2 {
+	margin: auto;
+	margin-top: 30px;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 30px;
 }
-
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
+.portfolio h3 {
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
 }
-
-
-
-/**
- * Clearfix
- */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+span {
+	text-decoration: overline;
 }
+.team {
+	position: relative;
+}
+.team img {
+	width: 33.3%;
+	height: 300px;
+	float: left;
+	opacity: 0.7;
+}
+.team img:hover {
+	box-shadow: 0px 2px 2px 2px;
+}
+#fcenter {
+    margin-top: 65px;
+	z-index: 1;
+    margin-top: 97px;
 
+}
+.fcenter {
+	position: absolute;
+    top: 60%;
+    left: 50%;
+	margin-top: 200px;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+	font-family: Sans-serif;
+	color: white;
+}
+#dleft {
+	margin-top: 97px;
 
+}
+.dleft {
+	position: absolute;
+    top: 60%;
+    left: 15%;
+	margin-top: 200px;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+	font-family: Sans-serif;
+	color: white;
+}
+#deright {
+	margin-top: 97px;
 
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
+}
+.deright {
+	position: absolute;
+	top: 40%;
+    right: 3%;
+	margin-top: 200px;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+	font-family: Sans-serif;
+	color: white;
+}
+.p {
+	color: black;
+}
+.deright a {
+	color: white;
+	float: left;
+	margin-left: 35px;
+}
+.facebook3 a:hover {
+	color: blue;
+}
+.twitter3 a:hover {
+	color: lightblue;
+}
+.pinterest3 a:hover {
+	color: red;
+}
+.fcenter a {
+	color: white;
+	float: left;
+	margin-left: 33px;
+}
+.facebook2 a:hover {
+	color: blue;
+}
+.twitter2 a:hover {
+	color: lightblue;
+}
+.pinterest2 a:hover {
+	color: red;
+}
+.dleft a {
+	color: white;
+	float: left;
+	margin-left: 33px;
+}
+.facebook1 a:hover {
+	color: blue;
+}
+.twitter1 a:hover {
+	color: lightblue;
+}
+.pinterest1 a:hover {
+	color: red;
 }
