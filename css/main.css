@@ -1,0 +1,203 @@
+* {
+	font-family: Monospace;
+}
+.navbar ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: -webkit-linear-gradient(white, #f4f5f7);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	border: 1px solid #f4f5f7;
+}
+.navbar li {
+	float: left;
+}
+.navbar li a {
+	display: block;
+    color: grey;
+    text-align: center;
+    padding: 10px 14px;
+	margin-top: 25px;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 12px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+	text-decoration: underline;
+}
+.navbar li h1 {
+	margin: auto;
+	text-align: center;
+	padding-left: 190px;
+	color: lightblue;
+	font-size: 70px;
+	font-family: Monospace;
+}
+.container {
+	position: relative;
+}
+.center {
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+	color: white;
+	font-weight: bold;
+	border: 10px double white;
+    padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.container img {
+	width: 1351px;
+	height: 690px;
+    height: auto;
+    opacity: 0.7;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.container a {
+	position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+.container a:hover {
+	text-decoration: underline;
+}
+.portfolio {
+	background-color: #edeeef;
+	margin: auto;
+	margin-top: -40px;
+	margin-right: -10px;
+	margin-left: -10px;
+	height: 1000px;
+}
+.portfolio h2 {
+	margin: auto;
+	margin-top: 30px;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+.portfolio h3 {
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+span {
+	text-decoration: overline;
+}
+.team {
+	position: relative;
+}
+.team img {
+	width: 33.3%;
+	height: 300px;
+	float: left;
+	opacity: 0.7;
+}
+.team img:hover {
+	box-shadow: 0px 2px 2px 2px;
+}
+#fcenter {
+    margin-top: 65px;
+	z-index: 1;
+    margin-top: 97px;
+
+}
+.fcenter {
+	position: absolute;
+    top: 60%;
+    left: 50%;
+	margin-top: 200px;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+	font-family: Sans-serif;
+	color: white;
+}
+#dleft {
+	margin-top: 97px;
+
+}
+.dleft {
+	position: absolute;
+    top: 60%;
+    left: 15%;
+	margin-top: 200px;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+	font-family: Sans-serif;
+	color: white;
+}
+#deright {
+	margin-top: 97px;
+
+}
+.deright {
+	position: absolute;
+	top: 40%;
+    right: 3%;
+	margin-top: 200px;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+	font-family: Sans-serif;
+	color: white;
+}
+.p {
+	color: black;
+}
+.deright a {
+	color: white;
+	float: left;
+	margin-left: 35px;
+}
+.facebook3 a:hover {
+	color: blue;
+}
+.twitter3 a:hover {
+	color: lightblue;
+}
+.pinterest3 a:hover {
+	color: red;
+}
+.fcenter a {
+	color: white;
+	float: left;
+	margin-left: 33px;
+}
+.facebook2 a:hover {
+	color: blue;
+}
+.twitter2 a:hover {
+	color: lightblue;
+}
+.pinterest2 a:hover {
+	color: red;
+}
+.dleft a {
+	color: white;
+	float: left;
+	margin-left: 33px;
+}
+.facebook1 a:hover {
+	color: blue;
+}
+.twitter1 a:hover {
+	color: lightblue;
+}
+.pinterest1 a:hover {
+	color: red;
+}
