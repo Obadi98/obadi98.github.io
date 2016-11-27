@@ -50,6 +50,7 @@ body {
 .right button {
 	background-color: transparent;
 	border: none;
+	cursor: pointer;
 }
 .about {
 	display: flex;
