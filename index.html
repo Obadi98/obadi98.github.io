@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" style="text/css" href="main.css">
+	<script type="text/javascript" src="script.js"></script>
+	<title>ObadiPG</title>
+  </head>
+  <body style="height:3000px;" onscroll="myFunction()">
+    <div id="home">
+	  <img src="https://wallpaperscraft.com/image/camera_dark_model_29226_2560x1440.jpg"/>
+	  <div id="navbar">
+	    <div class="right" id="left"><a href="#top" id="js"><b>OBADI</b></a></div>
+	    <div class="right" id="java1"><button onclick="homeFunction()"><a id="js1"><b>HOME</b></a></button></div>
+		<div class="right" id="java2"><button onclick="aboutFunction()"><a id="js2"><b>ABOUT</b></a></button></div>
+		<div class="right" id="java3"><button onclick="portFunction()"><a id="js3"><b>PORTFOLIO</b></a></button></div>
+		<div class="right" id="java4"><button onclick="contactFunction()"><a id="js4"><b>CONTACT</b></a></button></div>
+	  </div>
+	</div>
+	<div class="about">
+	  <h1 class="iabout">ABOUT</h1>
+	  <div class="iabout"></div>
+	  <p class="iabout">BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA</br> BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA</P>
+	</div>
+	<div class="portfolio">
+	  <h1 class="iportfolio">PORTFOLIO</h1>
+	  <div class="iportfolio" id="model"></div>
+	  <div class="iportfolio" id="galary">
+	    <img class="igalary" style="height:240px; width:370px;" src="http://cdn-cms.f-static.com/uploads/2031/2000_56ceff115f95d.jpg"/>
+		<img class="igalary" style="height:260px; width:370px;" src="http://cdn-cms.f-static.com/uploads/2031/2000_56ceff1492fdd.jpg"/>
+		<img class="igalary" style="height:370px; width:370px;" src="http://cdn-cms.f-static.com/uploads/2031/2000_56ceff198ef34.jpg"/>
+		<img class="igalary" style="height:240px; width:370px; margin-top:-120px;" src="http://cdn-cms.f-static.com/uploads/2031/2000_56ceff411cea1.jpg"/>
+		<img class="igalary" style="height:260px; width:370px; margin-top:-100px;" src="http://cdn-cms.f-static.com/uploads/2031/2000_56ceff866faa8.jpg"/>
+		<img class="igalary" style="height:240px; width:370px;" src="http://cdn-cms.f-static.com/uploads/2031/2000_56ceff8a3c09e.jpg"/>
+	  </div>
+	</div>
+	<div class="contact">
+	  <h1 class="icontact">CONTACT</h1>
+	  <div class="icontact" id="model"></div>
+	  <div class="icontact" id="message">
+	    <input class="imessage" id="name" type="text" placeholder="Name"/>
+		<input class="imessage" id="phone" type="text" placeholder="Phone"/>
+		<input class="imessage" id="email" type="text" placeholder="Email adress"/>
+		<textarea class="imessage" id="imessage1" placeholder="Message" cols="5" 
+       rows="1"></textarea>
+	   <input class="imessage" id="button" type="button" value="CONTACT US"/>
+	  </div>
+	  <div class="icontact" id="address">
+	    <p class="iaddress">Kafer Souseh, Damascus, Syria</p>
+		<a class="iaddress" href="obadabaqleh@hotmail.com">Obadabaqleh@hotmail.com</a>
+	  </div>
+	</div>
+	<div class="map">
+	  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=22222222'></script><div style='overflow:hidden;height:100%;width:100%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.org/'>embed google maps</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=f2a52908dcc4f90b945958835452a238b21152de'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(33.5043833,36.27422960000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(33.5043833,36.27422960000001)});infowindow = new google.maps.InfoWindow({content:'<strong>ObadiPG</strong><br>17th April<br> Damascus<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	</div>
+	<div class="footer">
+	  <div class="ifooter" id="lfooter">
+	    <h3 class="ifooter1">OBADI</h3>
+	    <p class="ifooter1">Copyright © 2016 All rights reserved</p>
+	    <p class="ifooter1">Created By OBADA,</br>
+		For More Information Contact Me On: +963951490964</p>
+	  </div>
+	  <div class="ifooter" id="rfooter">
+	    <div class="ifooter2"><button onclick="homeFunction()">HOME</button></div>
+		<div class="ifooter2"><button onclick="aboutFunction()">ABOUT</button></div>
+		<div class="ifooter2"><button onclick="portFunction()">PORTFOLIO</button></div>
+		<div class="ifooter2"><button onclick="contactFunction()">CONTACT</button></div>
+	  </div>
+	</div>
+  </body>
+</html>
