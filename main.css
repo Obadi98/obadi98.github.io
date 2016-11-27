@@ -1,203 +1,242 @@
 * {
-	font-family: Monospace;
+    /* border: 1px dotted red; */
+	font-family: arial;
 }
-.navbar ul {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: -webkit-linear-gradient(white, #f4f5f7);
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+#home {
+	height: 490px;
+}
+#home img {
+	width: 100%;
+	height: 490px;
+	opacity: 0.8;
+}
+#navbar {
+	display: flex;
 	position: fixed;
 	width: 100%;
+	height: 80px;
+	justify-content: flex-end;
 	top: 0;
-	left: 0;
+	border: 1px inset #636363;
 	z-index: 3;
-	border: 1px solid #f4f5f7;
 }
-.navbar li {
-	float: left;
+.right {
+	padding: 50px;
+	padding-top: 34px;
+	padding-right: 22px;
+	font-size: 13px;
+	letter-spacing: 1px;
 }
-.navbar li a {
-	display: block;
-    color: grey;
-    text-align: center;
-    padding: 10px 14px;
-	margin-top: 25px;
-	margin-right: 20px;
-	margin-left: 20px;
-	font-size: 12px;
-    text-decoration: none;
+#left {
+	margin-right: 650px;
+	font-size: 24px;
+	letter-spacing: 2px;
+	padding-top: 25px;
 }
-.navbar li a:hover {
-	text-decoration: underline;
-}
-.navbar li h1 {
-	margin: auto;
-	text-align: center;
-	padding-left: 190px;
-	color: lightblue;
-	font-size: 70px;
-	font-family: Monospace;
-}
-.container {
-	position: relative;
-}
-.center {
-	position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-	color: white;
-	font-weight: bold;
-	border: 10px double white;
-    padding-top: 30px;
-	padding-bottom: 30px;
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
-.container img {
-	width: 1351px;
-	height: 690px;
-    height: auto;
-    opacity: 0.7;
-	margin-left: -10px;
-	margin-right: -10px;
-}
-.container a {
-	position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-	color: white;
+.right a {
 	text-decoration: none;
+	color : white;
 }
-.container a:hover {
-	text-decoration: underline;
+.right a:hover {
+	color: #dbdbdb;
+}
+.right a:active {
+	color: orange;
+}
+.right button {
+	background-color: transparent;
+	border: none;
+}
+.about {
+	display: flex;
+	flex-direction: column;
+	padding-top: 80px;
+	padding-bottom: 130px;
+}
+.about h1 {
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	font-weight: lighter;
+	color: #636363;
+}
+.about div {
+	margin-left: 48%;
+	margin-right: 48%;
+	padding: 1px;
+	background-color: orange;
+	margin-top: -7px;
+}
+.about p {
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: center;
 }
 .portfolio {
-	background-color: #edeeef;
-	margin: auto;
-	margin-top: -40px;
-	margin-right: -10px;
-	margin-left: -10px;
-	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	background-color: #f4f5f7;
+    height: 950px;
+    margin-top: 20px;
 }
-.portfolio h2 {
-	margin: auto;
+.portfolio h1 {
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	font-weight: lighter;
+	color: #636363;
+	margin-top: 100px;
+}
+#model {
+	margin-left: 48%;
+	margin-right: 48%;
+	padding: 1px;
+	background-color: orange;
+	margin-top: -7px;
+}
+#galary {
+	display: flex;
+	flex-wrap: wrap;
 	margin-top: 30px;
-	padding-top: 30px;
-	text-align: center;
-	font-size: 30px;
+	margin-right: 6%;
+	margin-left: 8%;
+	height: 650px;
+	overflow: auto;
 }
-.portfolio h3 {
-	margin: auto;
-	text-align: center;
-	margin-top: 20px;
+.igalary {
+	margin: 5px;
+	border-radius: 4px;
 }
-span {
-	text-decoration: overline;
-}
-.team {
-	position: relative;
-}
-.team img {
-	width: 33.3%;
-	height: 300px;
-	float: left;
+.igalary:hover {
 	opacity: 0.7;
-}
-.team img:hover {
-	box-shadow: 0px 2px 2px 2px;
-}
-#fcenter {
-    margin-top: 65px;
+	cursor: pointer;
 	z-index: 1;
-    margin-top: 97px;
+    transition: 0.3s;
+}
+.contact {
+	width: 100%;
+	height: 450px;
+	padding-bottom: 100px;
+}
+.contact h1 {
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	font-weight: lighter;
+	color: #636363;
+	margin-top: 100px;
+}
+#message {
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+	width: 42%;
+	height: 70%;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+#name {
+	height: 40px;
+	width: 48.1%;
+	border-radius: 6px;
+	font-size: 20px;
+	padding-left: 5px;
+	border: 1px solid lightgray;
+}
+#phone {
+	height: 40px;
+	width: 48.1%;
+	border-radius: 6px;
+	font-size: 20px;
+	padding-left: 5px;
+	border: 1px solid lightgray;
 
 }
-.fcenter {
-	position: absolute;
-    top: 60%;
-    left: 50%;
-	margin-top: 200px;
-    transform: translate(-50%, -50%);
-    font-size: 13px;
-	font-family: Sans-serif;
+#email {
+	width: 98%;
+	height: 40px;
+	border-radius: 6px;
+	font-size: 20px;
+	padding-left: 5px;
+	border: 1px solid lightgray;
+}
+#imessage1{
+	width: 98%;
+	height: 130px;
+	border-radius: 6px;
+	font-size: 20px;
+	padding-left: 5px;
+	border: 1px solid lightgray;
+}
+#button {
+	width: 100%;
+	height: 40px;
+	background-color: orange;
+	border-radius: 15px;
 	color: white;
+	font-size: 15px;
+	border: none;
 }
-#dleft {
-	margin-top: 97px;
-
-}
-.dleft {
-	position: absolute;
-    top: 60%;
-    left: 15%;
-	margin-top: 200px;
-    transform: translate(-50%, -50%);
-    font-size: 13px;
-	font-family: Sans-serif;
-	color: white;
-}
-#deright {
-	margin-top: 97px;
-
-}
-.deright {
-	position: absolute;
-	top: 40%;
-    right: 3%;
-	margin-top: 200px;
-    transform: translate(-50%, -50%);
-    font-size: 13px;
-	font-family: Sans-serif;
-	color: white;
-}
-.p {
-	color: black;
-}
-.deright a {
-	color: white;
+#address {
 	float: left;
-	margin-left: 35px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 80px;
+	margin-left: 130px;
+	text-align: center;
 }
-.facebook3 a:hover {
-	color: blue;
+#address p {
+	font-size: 18px;
 }
-.twitter3 a:hover {
-	color: lightblue;
+#address a {
+	text-decoration: none;
+	color: orange;
+	width: 100%;
+	font-size: 18px;
 }
-.pinterest3 a:hover {
-	color: red;
+.map {
+	height: 500px;
 }
-.fcenter a {
+.footer {
+	display: flex;
+	height: 180px;
+	width: 100%;
+	background-color: black;
 	color: white;
-	float: left;
-	margin-left: 33px;
 }
-.facebook2 a:hover {
-	color: blue;
+#rfooter {
+	display: flex;
+	margin-left: 300px;
 }
-.twitter2 a:hover {
-	color: lightblue;
+#lfooter {
+	margin-left: 20px;
+	height: 10px;
 }
-.pinterest2 a:hover {
-	color: red;
+.ifooter1 {
+	margin-top: 10px;
+	margin-right: -100px;
 }
-.dleft a {
+.ifooter {
+	height: 100%;
+	width: 100%;
+}
+.ifooter2 {
+	padding-top: 80px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.ifooter2 button {
+	background-color: black;
 	color: white;
-	float: left;
-	margin-left: 33px;
+	border: none;
 }
-.facebook1 a:hover {
-	color: blue;
+.ifooter2 button:hover {
+	background-color: lightgray;
 }
-.twitter1 a:hover {
-	color: lightblue;
-}
-.pinterest1 a:hover {
-	color: red;
+.ifooter2 button:active {
+	color: orange;
 }
