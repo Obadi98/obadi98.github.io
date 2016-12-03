@@ -210,7 +210,7 @@ button a:active {
 }
 #rfooter {
 	display: flex;
-	margin-left: 300px;
+	margin-left: 200px;
 }
 #lfooter {
 	margin-left: 20px;
@@ -226,7 +226,6 @@ button a:active {
 }
 .ifooter2 {
 	padding-top: 80px;
-	margin-right: 20px;
 }
 .ifooter2 button {
 	background-color: black;
