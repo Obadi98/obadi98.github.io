@@ -76,3 +76,11 @@ function contactFunction() {
 	 var body = document.body;
 	 body.scrollTop = 1800;
 }
+function iconFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
