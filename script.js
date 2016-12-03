@@ -47,6 +47,7 @@ function myFunction() {
 	if(body.scrollTop < 50) {
 	    document.getElementById("logo").style.marginRight = "550px";
 		document.getElementById("logo").style.marginTop = "-20px";
+		document.getElementById("logo").style.backgroundColor = "transparent";
 		document.getElementById("java1").style.paddingTop = "34px";
 		document.getElementById("java2").style.paddingTop = "34px";
 		document.getElementById("java3").style.paddingTop = "34px";
