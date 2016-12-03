@@ -238,8 +238,37 @@ button a:active {
 .ifooter2 button:active {
 	color: orange;
 }
-@media screen and (max-width: 769px) {
-    #navbar {
-        background-color: lightgreen;
-    }
+.topnav #icon {
+	display: none;
+}
+@media screen and (max-width:900px) {
+  .topnav :not(:first-child) {display: none;}
+  .topnav #icon {
+    float: right;
+    display: inline-block;
+  }
+}
+@media screen and (max-width:900px) {
+  .topnav (:first-child) {display: none;}
+  .topnav #icon {
+    float: right;
+    display: inline-block;
+  }
+}
+@media screen and (max-width:900px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive #icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive {
+    float: none;
+    display: inline;
+  }
+  .topnav.responsive {
+    display: block;
+    text-align: right;
+	color: black;
+  }
 }
