@@ -226,6 +226,7 @@ button a:active {
 }
 .ifooter2 {
 	padding-top: 80px;
+	margin-right: 20px;
 }
 .ifooter2 button {
 	background-color: black;
