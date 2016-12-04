@@ -323,11 +323,8 @@ button a:active {
     text-align: right;
 	color: black;
   }
-  #name.responsive {
+  .imessage.responsive {
       width: 100%;
-  }
-  #phone.responsive {
-	  width: 100%;
   }
   #logo.responsive {
 	  margin-right: 200px;
