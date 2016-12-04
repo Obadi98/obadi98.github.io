@@ -323,13 +323,13 @@ button a:active {
     text-align: right;
 	color: black;
   }
-  #name {
+  #name.responsive {
       width: 100%;
   }
-  #phone {
+  #phone.responsive {
 	  width: 100%;
   }
-  #logo {
+  #logo.responsive {
 	  margin-right: 200px;
   }
 }
