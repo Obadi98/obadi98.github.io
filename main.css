@@ -145,19 +145,22 @@ button a:active {
 	z-index: 1;
     transition: 0.3s;
 }
-#swap {
-	margin-right: 45%;
-	margin-left: 45%;
-	padding-right: -30px;
-}
 .ibutton {
 	color: orange;
 	background-color: transparent;
 	font-size: 30px;
 	border: none;
-	padding-left: 20px;
-	padding-right: 20px;
 	cursor: pointer;
+}
+#buttonl {
+    width: 50px;
+	margin-left: 70px;
+	margin-top: -300px;
+}
+#buttonr {
+	width: 50px;
+    margin-left: 1260px;
+	margin-top: -30px;
 }
 .ibutton:hover {
 	color: #FF4500;
