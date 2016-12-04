@@ -77,11 +77,15 @@ function contactFunction() {
 	 var body = document.body;
 	 body.scrollTop = 1800;
 }
-function iconFunction() {
-    var x = document.getElementById("navbar");
-    if (x.className === "topnav") {
-        x.className += " responsive";
+function imgFunction() {
+	var y = document.getElementById('galery2');
+    var x = document.getElementById('galary');
+    if (x.style.display === 'none') {
+        x.style.display = 'flex';
+		y.style.display = 'none';
+		
     } else {
-        x.className = "topnav";
+        x.style.display = 'none';
+		y.style.display = 'flex';
     }
 }
