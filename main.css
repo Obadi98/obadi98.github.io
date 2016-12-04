@@ -322,4 +322,13 @@ button a:active {
     text-align: right;
 	color: black;
   }
+  #name {
+      width: 100%;
+  }
+  #phone {
+	  width: 100%;
+  }
+  #logo {
+	  margin-right: 200px;
+  }
 }
