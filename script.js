@@ -81,11 +81,12 @@ function imgFunction() {
 	var y = document.getElementById('galery2');
     var x = document.getElementById('galary');
     if (x.style.display === 'none') {
-        x.style.display = 'flex';
-		y.style.display = 'none';
-		
+       x.style.display = 'flex';
+	x.style.display = '-webkit-flex';
+	y.style.display = 'none';
     } else {
         x.style.display = 'none';
-		y.style.display = 'flex';
+	y.style.display = 'flex';
+	y.style.display = '-webkit-flex';
     }
 }
