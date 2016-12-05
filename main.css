@@ -110,8 +110,8 @@ button a:active {
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
 	margin-top: 100px;
-	margin-right: 6%;
-	margin-left: 9%;
+	margin-right: 8%;
+	margin-left: 8%;
 	height: 550px;
 	overflow: auto;
 }
@@ -121,8 +121,8 @@ button a:active {
 	flex-wrap: wrap;
 	-webkit-flex-wrap: wrap;
 	margin-top: 100px;
-	margin-right: 6%;
-	margin-left: 9%;
+	margin-right: 8%;
+	margin-left: 8%;
 	height: 550px;
 	overflow: auto;
 	display: none;
