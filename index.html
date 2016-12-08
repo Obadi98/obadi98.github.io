@@ -59,11 +59,11 @@
 	    </form>
 	    <script>
 	document.contactform.onsubmit=function()
-	{
+	    {
 	    if(document.contactform.name.value == "")
 		{
 		    alert("Please enter your name");
-			document.contactform.fullname.focus();
+			document.contactform.name.focus();
 			return false;
 		}
 		else if(document.contactform.email.value == "")
@@ -73,7 +73,7 @@
 			return false;
 		}
 		return true;
-	}
+	    }
 	</script>
 	  </div>
 	  <div class="icontact" id="address">
