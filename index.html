@@ -57,6 +57,24 @@
           rows="1"></textarea>
 	     <input class="imessage" id="button" type="submit" name="submit" value="CONTACT US"/>
 	    </form>
+	    <script>
+	document.contactform.onsubmit=function()
+	{
+	    if(document.contactform.fullname.value == "")
+		{
+		    alert("Please enter your name");
+			document.contactform.fullname.focus();
+			return false;
+		}
+		else if(document.contactform.email.value == "")
+		{
+		    alert("Please enter your Email address");
+			document.contactform.email.focus();
+			return false;
+		}
+		return true;
+	}
+	</script>
 	  </div>
 	  <div class="icontact" id="address">
 	    <p class="iaddress">Aemreh, Old Damascus, Damascus, Syria</p>
