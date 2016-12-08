@@ -72,6 +72,18 @@
 			document.contactform.email.focus();
 			return false;
 		}
+		else if(document.contactform.message.value == "")
+		{
+		    alert("Please enter your Message");
+			document.contactform.email.focus();
+			return false;   
+		}
+		else if(document.contactform.phone.value == "")
+		{
+		    alert("Please enter your Phone number");
+			document.contactform.email.focus();
+			return false;   
+		}
 		return true;
 	    }
 	</script>
