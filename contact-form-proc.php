@@ -19,5 +19,6 @@ $message = $_POST["message"];
 mail( 'obadabaqleh@hotmail.com' , 'New form submission' , 
 "New form submission: Name: $name, Email:$email: $message"  );
  
- 
+header('Location: thank-you.html'); 
+
 ?>
