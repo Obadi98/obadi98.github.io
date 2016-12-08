@@ -45,17 +45,17 @@
 	    <button id="rrb" class="ibutton" onclick="imgFunction()">></button>
 	  </div>
 	</div>
-	<div class="contact">
+		<div class="contact">
 	  <h1 class="icontact">CONTACT</h1>
 	  <div class="icontact" id="model"></div>
 	  <div class="icontact" id="message">
-	    <form method="post" action="mailto:obadabaqleh@hotmail.com" >
-	      <input class="imessage" id="name" type="text" placeholder="Name"/>
-		  <input class="imessage" id="phone" type="text" placeholder="Phone"/>
-		  <input class="imessage" id="email" type="text" placeholder="Email adress"/>
-		  <textarea class="imessage" id="imessage1" placeholder="Message" cols="5" 
+	    <form method="post" action="contact-form-proc.php" name="contactform" id="contactform">
+	      <input class="imessage" id="name" type="text" name="name" placeholder="Name"/>
+		  <input class="imessage" id="phone" type="text" name="phone" placeholder="Phone"/>
+		  <input class="imessage" id="email" type="text" name="email" placeholder="Email adress"/>
+		  <textarea class="imessage" id="imessage1" name="message" placeholder="Message" cols="5" 
           rows="1"></textarea>
-	     <input class="imessage" id="button" type="submit" value="CONTACT US"/>
+	     <input class="imessage" id="button" type="submit" name="submit" value="CONTACT US"/>
 	    </form>
 	  </div>
 	  <div class="icontact" id="address">
