@@ -1,10 +1,12 @@
 function myFunction() {
 	var body = document.body;
 	if(body.scrollTop > 50) {
-		document.getElementById("logo").style.marginRight = "570px";
-		document.getElementById("logo").style.marginTop = "-30px";
-		document.getElementById("logo").style.backgroundColor = "#283a59";
-		document.getElementById("logo").style.transition = "all 0.5s";
+		document.getElementById("border").style.fontSize = "19px";
+		document.getElementById("border").style.marginRight = "-100px";
+		document.getElementById("border").style.transition = "all 0.8s";
+		document.getElementById("border2").style.fontSize = "17px";
+		document.getElementById("border2").style.marginRight = "0";
+		document.getElementById("border2").style.transition = "all 0.8s";
 		document.getElementById("navbar").style.transition = "all 0.5s";
 		document.getElementById("navbar").style.border = "0.5px inset white";
 		document.getElementById("java1").style.transition = "all 0.5s";
@@ -45,8 +47,14 @@ function myFunction() {
 		document.getElementById("js3").style.color = "white";
 	}
 	if(body.scrollTop < 50) {
-	    document.getElementById("logo").style.marginRight = "550px";
-		document.getElementById("logo").style.marginTop = "-20px";
+	    document.getElementById("left").style.paddingRight = "550px";
+		document.getElementById("left").style.marginTop = "-40px";
+		document.getElementById("border").style.textDecoration = "overline";
+		document.getElementById("border").style.marginRight = "0";
+		document.getElementById("border").style.fontSize = "22px";
+		document.getElementById("border2").style.textDecoration = "overline";
+		document.getElementById("border2").style.fontSize = "20px";
+		document.getElementById("border2").style.marginRight = "-110px";
 		document.getElementById("logo").style.backgroundColor = "transparent";
 		document.getElementById("java1").style.paddingTop = "34px";
 		document.getElementById("java2").style.paddingTop = "34px";
@@ -81,12 +89,13 @@ function imgFunction() {
 	var y = document.getElementById('galery2');
     var x = document.getElementById('galary');
     if (x.style.display === 'none') {
-       x.style.display = 'flex';
-	x.style.display = '-webkit-flex';
-	y.style.display = 'none';
+        x.style.display = 'flex';
+		x.style.display = '-webkit-flex';
+		y.style.display = 'none';
+		
     } else {
         x.style.display = 'none';
-	y.style.display = 'flex';
-	y.style.display = '-webkit-flex';
+		y.style.display = 'flex';
+		y.style.display = '-webkit-flex';
     }
 }
