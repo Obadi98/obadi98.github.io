@@ -1,10 +1,9 @@
 function myFunction() {
 	var body = document.body;
 	if(body.scrollTop > 50) {
-		document.getElementById("logo").style.marginRight = "570px";
-		document.getElementById("logo").style.marginTop = "-30px";
-		document.getElementById("logo").style.backgroundColor = "#283a59";
-		document.getElementById("logo").style.transition = "all 0.5s";
+        document.getElementById("left").style.marginRight = "520px";
+		document.getElementById("left").style.marginTop = "-20px";
+		document.getElementById("left").style.transition = "all 0.5s";
 		document.getElementById("navbar").style.transition = "all 0.5s";
 		document.getElementById("navbar").style.border = "0.5px inset white";
 		document.getElementById("java1").style.transition = "all 0.5s";
@@ -45,9 +44,8 @@ function myFunction() {
 		document.getElementById("js3").style.color = "white";
 	}
 	if(body.scrollTop < 50) {
-	    document.getElementById("logo").style.marginRight = "550px";
-		document.getElementById("logo").style.marginTop = "-20px";
-		document.getElementById("logo").style.backgroundColor = "transparent";
+	    document.getElementById("left").style.marginRight = "500px";
+		document.getElementById("left").style.marginTop = "-15px";
 		document.getElementById("java1").style.paddingTop = "34px";
 		document.getElementById("java2").style.paddingTop = "34px";
 		document.getElementById("java3").style.paddingTop = "34px";
