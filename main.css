@@ -202,11 +202,13 @@ button a:active {
 }
 #rrb:hover {
 	color: #FF4500;
-	background-color: white;
+	border:none;
+	outline: none;
 }
 #llb:hover {
 	color: #FF4500;
-	background-color: white;
+	border:none;
+	outline: none;
 }
 .contact {
 	width: 100%;
