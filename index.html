@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<link rel="icon" href="icon/icon.png"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script src="script.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<title>BRACKETS</title>
+		<script>
+			$(document).ready(function() {
+
+				var x = document.getElementById("test");
+				if ($(window).width() < 768) {
+					x.style.color = 'red';
+				}
+		</script>
+	</head>
+
+	<body onload="fuck()">
+		<div class="page">
+
+			<!--mobile button-->
+			
+			<!--navbar-->
+			<div class="nav">
+				<!--logo on the left-->
+				<div class="left" style="flex-grow: 1;">
+					<a href="#"><img src="icon/icon.png" class="logoimg" onmouseover="hover()" onmouseout="out()"/></a>
+					<h1 class="wlogo" id="logo" >{BRACKETS}.</h1>
+				</div>
+				<!--buttons on the right-->
+				<div class="right" style="flex-grow: 1;">
+					<div class="navmodel" style="flex-grow: 1;">
+						<a href="#" class="navitem"id="nav1" onmouseover="hover1()" onmouseout="out1()" id="home">HOME</a>
+						<div class="model" id="model1"></div>
+					</div>
+					<div class="navmodel" style="flex-grow: 1;">
+						<a href="#" class="navitem"id="nav2" onmouseover="hover2()" onmouseout="out2()">SERVICES</a>
+						<div class="model" id="model2"></div>
+					</div>
+					<div class="navmodel">
+						<a href="#" class="navitem"id="nav3" onmouseover="hover3()" onmouseout="out3()">ABOUT US</a>
+						<div class="model" id="model3"></div>
+					</div>
+					<div class="navmodel1" id="mobile" onclick="open()">
+						<button class="mobilebtn" id="mobilebtn">
+							<span class="mobilemodelb"></span>
+							<span class="mobilemodelw"></span>
+							<span class="mobilemodelb"></span>
+							<span class="mobilemodelw"></span>
+							<span class="mobilemodelb"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="blocknav" id="blocknav1">
+				<a href="#" class="blockitem">HOME</a>
+				<a href="#" class="blockitem">SERVICES</a>
+				<a href="#" class="blockitem">ABOUT US</a>
+			</div>
+
+			<!--home-->
+			<div class="home">
+				<div class="mid">
+					<div class="homeicon"><img src="icon/icon.png" class="homeiconimg"/></div>
+					<form class="msgform">
+						<h1 style="color:white;">Send us a Message</h1>
+						<input type="text" name="fname" placeholder="First name" class="formitem">
+						<input type="text" name="lname" placeholder="Last name" class="formitem">
+						<input type="email" name="email" placeholder="Email" class="formitem">
+						<input type="number" name="number" placeholder="Phone" class="formitem">
+						<input type="textarea" name="msg" placeholder="Your Message" class="formitem">
+						<input type="submit" value="Send" class="formbtn">
+					</form>
+				</div>
+			</div>
+			<h1 style="color:black;" id="test" onmouseover="fuck()">Send us a Message</h1>
+		</div>
+	</body>
+
+</html>
