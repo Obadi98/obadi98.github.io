@@ -119,7 +119,7 @@
 					}
 
 					//database connect
-					$servername = "localhost";
+					$servername = "https://obadi98.github.io/";
 					$username = "root";
 					$password = "";
 					$dbname = "messages";
