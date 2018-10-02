@@ -12,29 +12,19 @@
 	<body onload="changeimg()">
 		<div class="page">
 			<div class="home">
-				<div class="lefthome">
-				</div>
-				<div class="midhome" id="midjs">
-					<div class="nav">
-						<p class="navitem" id="home" style="flex-grow: 1;" onclick="home()">HOME </p>
-						<p class="navitem" id="serv" style="flex-grow: 1;" onclick="serv()">SERVICES </p>
-						<p class="navitem" id="about" style="flex-grow: 1;" onclick="about()">ABOUT US </p>
-						<p class="navitem" id="cont" style="flex-grow: 1;" onclick="cont()">CONTACT US </p>
+				<div class="tophome" id="tophomeid">
+					<div class="leftnav" id="leftnavid">
+						<div style="flex-grow: 0.3;" id="remove"></div>
+						<p class="navitem" id="home">HOME </p>
+						<p class="navitem" id="serv">SERVICES </p>
 					</div>
-					<div class="midlogo" id="midlogojs">
-						<div class="midlogoleft">
-						</div>
-						<div class="midlogomid">
-							<img src="icon/icon.png" id="logojs" onmouseover="logojump()" onmouseout="logonojump()">
-						</div>
-						<div class="midlogoright">
-						</div>
+					<div class="midnav">
+						<img src="icon/icon.png" class="imgicon"/>
 					</div>
-					<div class="brackets" id="bracketsjs">
-						{BRACKETS}
+					<div class="rightnav">
+						<p class="navitem" id="about">ABOUT US </p>
+						<p class="navitem" id="cont">CONTACT US </p>
 					</div>
-				</div>
-				<div class="righthome">
 				</div>
 			</div>
 			<div class="service">
