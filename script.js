@@ -12,46 +12,92 @@ window.onscroll = function() {myFunction()};
 
 function myFunction() {
     if (document.body.scrollTop > 50 && document.body.scrollTop < 400 || document.documentElement.scrollTop > 50 && document.documentElement.scrollTop < 400) {
-        document.getElementById("midjs").className = "newmid";
-        document.getElementById("midlogojs").className = "none";
-        document.getElementById("bracketsjs").className = "none";
-        document.getElementById("midjs").style.transition = "all 2s";
+        document.getElementById("tophomeid").className = "newtophome";
+        document.getElementById("home").className = "newnavitem";
+        document.getElementById("serv").className = "newnavitem";
+        document.getElementById("about").className = "newnavitem";
+        document.getElementById("cont").className = "newnavitem";
+        document.getElementById("home").style.marginLeft = "60px";
+        document.getElementById("serv").style.marginLeft = "60px";
+        document.getElementById("serv").style.paddingLeft = "0px";
+        document.getElementById("tophomeid").style.transition = "all 2s";
+        document.getElementById("home").style.transition = "all 2s";
+        document.getElementById("serv").style.transition = "all 2s";
+        document.getElementById("about").style.transition = "all 2s";
+        document.getElementById("cont").style.transition = "all 2s";
     } 
     else if(document.body.scrollTop >= 400 && document.body.scrollTop < 900 || document.documentElement.scrollTop >= 400 && document.documentElement.scrollTop < 900){
-    	document.getElementById("midjs").className = "newmid";
-        document.getElementById("midlogojs").className = "none";
-        document.getElementById("bracketsjs").className = "none";
-        document.getElementById("midjs").style.transition = "all 2s";
+    	document.getElementById("tophomeid").className = "newtophome";
+        document.getElementById("home").className = "newnavitem";
+        document.getElementById("serv").className = "newnavitem";
+        document.getElementById("about").className = "newnavitem";
+        document.getElementById("cont").className = "newnavitem";
+        document.getElementById("home").style.marginLeft = "60px";
+        document.getElementById("serv").style.marginLeft = "60px";
+        document.getElementById("serv").style.paddingLeft = "0px";
+        document.getElementById("tophomeid").style.transition = "all 2s";
+        document.getElementById("home").style.transition = "all 2s";
+        document.getElementById("serv").style.transition = "all 2s";
+        document.getElementById("about").style.transition = "all 2s";
+        document.getElementById("cont").style.transition = "all 2s";
         document.getElementById("home").style.color = "black";
-        document.getElementById("serv").style.color = "gold";
+        document.getElementById("serv").style.color = "white";
         document.getElementById("about").style.color = "black";
         document.getElementById("cont").style.color = "black";
     }
     else if(document.body.scrollTop >= 900 && document.body.scrollTop < 1400 || document.documentElement.scrollTop >= 900 && document.documentElement.scrollTop < 1400){
-    	document.getElementById("midjs").className = "newmid";
-        document.getElementById("midlogojs").className = "none";
-        document.getElementById("bracketsjs").className = "none";
-        document.getElementById("midjs").style.transition = "all 2s";
+    	document.getElementById("tophomeid").className = "newtophome";
+        document.getElementById("home").className = "newnavitem";
+        document.getElementById("serv").className = "newnavitem";
+        document.getElementById("about").className = "newnavitem";
+        document.getElementById("cont").className = "newnavitem";
+        document.getElementById("home").style.marginLeft = "60px";
+        document.getElementById("serv").style.marginLeft = "60px";
+        document.getElementById("serv").style.paddingLeft = "0px";
+        document.getElementById("tophomeid").style.transition = "all 2s";
+        document.getElementById("home").style.transition = "all 2s";
+        document.getElementById("serv").style.transition = "all 2s";
+        document.getElementById("about").style.transition = "all 2s";
+        document.getElementById("cont").style.transition = "all 2s";
         document.getElementById("home").style.color = "black";
         document.getElementById("serv").style.color = "black";
-        document.getElementById("about").style.color = "gold";
+        document.getElementById("about").style.color = "white";
         document.getElementById("cont").style.color = "black";
     }
     else if(document.body.scrollTop >= 1400 && document.body.scrollTop < 2100 || document.documentElement.scrollTop >= 1400 && document.documentElement.scrollTop < 2100){
-    	document.getElementById("midjs").className = "newmid";
-        document.getElementById("midlogojs").className = "none";
-        document.getElementById("bracketsjs").className = "none";
-        document.getElementById("midjs").style.transition = "all 2s";
+    	document.getElementById("tophomeid").className = "newtophome";
+        document.getElementById("home").className = "newnavitem";
+        document.getElementById("serv").className = "newnavitem";
+        document.getElementById("about").className = "newnavitem";
+        document.getElementById("cont").className = "newnavitem";
+        document.getElementById("home").style.marginLeft = "60px";
+        document.getElementById("serv").style.marginLeft = "60px";
+        document.getElementById("serv").style.paddingLeft = "0px";
+        document.getElementById("tophomeid").style.transition = "all 2s";
+        document.getElementById("home").style.transition = "all 2s";
+        document.getElementById("serv").style.transition = "all 2s";
+        document.getElementById("about").style.transition = "all 2s";
+        document.getElementById("cont").style.transition = "all 2s";
         document.getElementById("home").style.color = "black";
         document.getElementById("serv").style.color = "black";
         document.getElementById("about").style.color = "black";
-        document.getElementById("cont").style.color = "gold";
+        document.getElementById("cont").style.color = "white";
     }
     else {
-        document.getElementById("midjs").className = "midhome";
-        document.getElementById("midlogojs").className = "midlogo";
-        document.getElementById("bracketsjs").className = "brackets";
-        document.getElementById("home").style.color = "gold";
+        document.getElementById("tophomeid").className = "tophome";
+        document.getElementById("home").className = "navitem";
+        document.getElementById("serv").className = "navitem";
+        document.getElementById("about").className = "navitem";
+        document.getElementById("cont").className = "navitem";
+        document.getElementById("home").style.marginLeft = "0px";
+        document.getElementById("serv").style.marginLeft = "0px";
+        document.getElementById("serv").style.paddingLeft = "100px";
+        document.getElementById("tophomeid").style.transition = "all 2s";
+        document.getElementById("home").style.transition = "all 2s";
+        document.getElementById("serv").style.transition = "all 2s";
+        document.getElementById("about").style.transition = "all 2s";
+        document.getElementById("cont").style.transition = "all 2s";
+        document.getElementById("home").style.color = "white";
         document.getElementById("serv").style.color = "black";
         document.getElementById("about").style.color = "black";
         document.getElementById("cont").style.color = "black";
