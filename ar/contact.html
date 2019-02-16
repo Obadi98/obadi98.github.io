@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <!-- meta character set -->
+    <meta charset="utf-8">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="../images/fav.jpg">
+    <!-- Author Meta -->
+    <meta name="author" content="BRACKETS">
+    <!-- Meta Description -->
+    <meta name="description" content="Dr Gallini: about">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Site Title -->
+    <title>Dr Gallini</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700"> 
+    <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+    <!--==========CSS==========-->
+    <link rel="stylesheet" href="../fonts/icomoon/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/icon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+  
+  <div class="site-wrap">
+    <!--================ MOBILE MENU =================-->
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+    <!--================ START AREA =================-->
+    <!-- MENU -->
+    <header class="site-navbar py-3" role="banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-11 col-xl-2">
+            <h1 class="mb-0"><a href="index.html" class="text-white h3 mb-0">DR GALLINI</a></h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li class="active"><a href="index.html" style="font-family: 'Lemonada', cursive;">الرئيسية</a></li>
+                <li><a href="about.html" style="font-family: 'Lemonada', cursive;">معلومات عنا</a></li>
+                <li><a href="contact.html" style="font-family: 'Lemonada', cursive;">اتصل بنا</a></li>
+                <li><a href="../contact.html" style="font-family: 'Lemonada', cursive;">English</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--TOGGLE MENU FOR MOBILE-->
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+          </div>
+        </div>
+    </header>
+    <!-- HOME COVER -->
+    <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(../images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
+            <h1 class="text-white font-weight-light text-uppercase font-weight-bold" style="font-family: 'Lemonada', cursive; text-shadow: 7px 7px black;">اتصل بنا</h1>
+            <p class="breadcrumb-custom"><a href="index.html" style="font-family: 'Lemonada', cursive; text-shadow: 2px 2px black;">الرئيسية</a> <span class="mx-2">&gt;</span> <span style="font-family: 'Lemonada', cursive; text-shadow: 2px 2px black;">اتصل بنا</span></p>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <!--================ MAIN CONTACT AREA =================-->
+    <php include 'mail.php';?>
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <form action="#" class="p-5 bg-white">
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname" style="font-family: 'Lemonada', cursive; float: right;">الاسم الأول</label>
+                  <input type="text" id="fname" class="form-control" style="direction: rtl;">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname" style="font-family: 'Lemonada', cursive; float: right;">الكنية</label>
+                  <input type="text" id="lname" class="form-control" style="direction: rtl;">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="email" style="font-family: 'Lemonada', cursive; float: right;">البريد الالكتروني</label> 
+                  <input type="email" id="email" class="form-control" style="direction: rtl;">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="subject" style="font-family: 'Lemonada', cursive; float: right;">العنوان</label> 
+                  <input type="subject" id="subject" class="form-control" style="direction: rtl;">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message" style="font-family: 'Lemonada', cursive; float: right;">الرسالة</label> 
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="اكتب ملاحظاتك او اسئلتك هنا. . ." style="direction: rtl;"></textarea>
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="ارسل" class="btn btn-primary py-2 px-4 text-white" style="font-family: 'Lemonada', cursive; float: right;">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="p-4 mb-3 bg-white">
+              <p class="mb-0 font-weight-bold text-right" style="font-family: 'Lemonada', cursive;">العنوان</p>
+              <p class="mb-4 text-right" style="font-family: 'Lemonada', cursive;">دمشق, سوريا</p>
+              <p class="mb-0 font-weight-bold text-right" style="font-family: 'Lemonada', cursive;">هاتف</p>
+              <p class="mb-4 text-right"><a href="#" style="font-family: 'Lemonada', cursive;">+963 000 000 000</a></p>
+              <p class="mb-0 font-weight-bold text-right" style="font-family: 'Lemonada', cursive;">البريد الالكتروني</p>
+              <p class="mb-0 text-right"><a href="#" style="font-family: 'Lemonada', cursive;">youremail@domain.com</a></p>
+            </div>
+            <div class="p-4 mb-3 bg-white">
+              <h3 class="h5 text-black mb-3 text-right" style="font-family: 'Lemonada', cursive;">معلومات اضافية</h3>
+              <p class="text-right" style="font-family: 'Lemonada', cursive;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ad iure porro mollitia architecto hic consequuntur. Distinctio nisi perferendis dolore, ipsa consectetur? Fugiat quaerat eos qui, libero neque sed nulla.</p>
+              <p><a href="about.html" class="btn btn-primary px-4 py-2 text-white" style="font-family: 'Lemonada', cursive; float: right;">اعرف اكثر</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--================ FOOTER AREA =================-->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-3">
+              </div>
+              <div class="col-md-3">
+              </div>
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4 text-right">تابعنا على</h2>
+                <a href="#" class="pl-0 pr-2"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-2"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-2"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-2"><span class="icon-linkedin"></span></a>
+                <a href="#" class="pl-3 pr-2"><span class="icon-google"></span></a>
+                <a href="#" class="pl-3 pr-2"><span class="icon-pinterest"></span></a>
+                <a href="#" class="pl-3 pr-2"><span class="icon-whatsapp"></span></a>
+                <a href="#" class="pl-3 pr-2"><span class="icon-reddit"></span></a>
+              </div>
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4 text-right">روابط سريعة</h2>
+                <ul class="list-unstyled">
+                  <li class="text-right"><a href="index.html">الرئيسية</a></li>
+                  <li class="text-right"><a href="about.html">معلومات عنا</a></li>
+                  <li class="text-right"><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p>
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved to <a href="http://bracketsps.com" style="color: lightblue">BRACKETS</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--================ contact navbar =================-->
+    <div class="navi">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+    </div>
+
+  </div>
+
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../js/jquery-ui.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/jquery.stellar.min.js"></script>
+  <script src="../js/jquery.countdown.min.js"></script>
+  <script src="../js/jquery.magnific-popup.min.js"></script>
+  <script src="../js/bootstrap-datepicker.min.js"></script>
+  <script src="../js/aos.js"></script>
+
+  <script src="../js/main.js"></script>
+    
+  </body>
+</html>
